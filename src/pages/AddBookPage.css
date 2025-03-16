@@ -1,0 +1,93 @@
+/* Centering the container with a soothing gradient background */
+.addbook-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #89f7fe, #66a6ff);
+    padding: 20px;
+  }
+  
+  /* Card styling for the Add Book form */
+  .addbook-card {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 40px 30px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: left;
+  }
+  
+  /* Header styling */
+  .addbook-card h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Error message styling */
+  .error-message {
+    background: #ffdddd;
+    color: #d8000c;
+    padding: 10px;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  /* Form styling */
+  .addbook-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .addbook-form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .addbook-form input,
+  .addbook-form select,
+  .addbook-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+  }
+  
+  .addbook-form input:focus,
+  .addbook-form select:focus,
+  .addbook-form textarea:focus {
+    border-color: #66a6ff;
+    outline: none;
+  }
+  
+  /* Button styling */
+  .submit-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #66a6ff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .submit-button:hover {
+    background-color: #559eea;
+    transform: translateY(-2px);
+  }
+  
+  .submit-button:disabled {
+    background-color: #a1a1a1;
+    cursor: not-allowed;
+  }
+  
